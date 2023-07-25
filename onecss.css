@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 100%;
+    font-family:sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+div,span,ul,li,a,section,header{
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px ;
+    position: fixed;
+    z-index: 999;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin:6px ;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#im{
+    width: 80px;
+    height: 80px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    position: relative;
+}
+#home{
+    background-color: cadetblue;
+}
+#aboutus{
+    background-color: darkgoldenrod;
+}
+#contact{
+    background-color: hsl(130, 56%, 41%);
+}
+#product{
+    background-color: rgb(168, 44, 92);
+}
+#pricing{
+    background-color: rgb(64, 8, 128);
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: white;
+}
